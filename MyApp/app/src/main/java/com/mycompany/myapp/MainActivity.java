@@ -1,15 +1,15 @@
 package com.mycompany.myapp;
 
-import android.app.*;
 import android.os.*;
+import android.preference.*;
 
-public class MainActivity extends Activity 
+public class MainActivity extends PreferenceActivity 
 {
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
-        setContentView(setResource("main" , "layout"));
+        addPreferencesFromResource(setResource("pref" , "xml"));
     }
 
 	private int setResource(String p0, String p1)

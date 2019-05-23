@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<!-- controller -->
+	<PreferenceScreen android:layout="@layout/main"/>
+		
+	<com.mycompany.myapp.GreetEditText
+		android:key="pagi"
+		android:title="Salam pagi"
+		android:summary="%s"/>
+	<com.mycompany.myapp.GreetEditText
+		android:key="siang"
+		android:title="Salam Siang"
+		android:summary="%s"/>
+	<com.mycompany.myapp.GreetEditText
+		android:key="sore"
+		android:title="Salam Sore"
+		android:summary="%s"/>
+	<com.mycompany.myapp.GreetEditText
+		android:key="malam"
+		android:title="Salam Malam"
+		android:summary="%s"/>
+	<com.mycompany.myapp.GreetEditText
+		android:key="ukuran"
+		android:title="Text Size"
+		android:summary="%s"/>
+</PreferenceScreen>
